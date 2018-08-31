@@ -21,6 +21,9 @@ Installation
 ## FOR Ubuntu/Debian
 sudo apt-get install vim-gtk curl git cmake build-essential python-dev tmux -y
 
+## FOR Mac
+brew install vim-gtk curl git cmake build-essential python-dev tmux -y
+
 ## OR
 
 ## FOR Babun
@@ -28,8 +31,25 @@ pact install vim curl git cmake gcc-core gcc-g++ python tmux
 
 # Install requirements END
 
+## Make sure to run this in tmux
+
 # seriously, that's it! and follow the prompts!
 sh <(curl -sL https://raw.githubusercontent.com/mxaddict/dotfiles/master/install)
+
+## FOR Mac
+# seriously, that's it! and follow the prompts!
+sh <(curl -sL https://raw.githubusercontent.com/mxaddict/dotfiles/mac/install)
+
+
+## Install fonts
+## git clone https://github.com/powerline/fonts (in Project directory)
+## cd fonts
+## ./install.sh
+
+## in mac
+## add Japanese keyboard and set font to Romanji to enable nerd tree
+
+
 ```
 
 Platform support
